@@ -33,6 +33,7 @@ ol {
   text-align: center;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 4px;
+  z-index: 100;
 }
 
 .header-row {
@@ -127,4 +128,16 @@ ol {
 
 .navbar-item:first-child > .navbar-link {
   color: var(--primary-color);
+}
+
+/* /////////////////////////////HEADER////////////////////////////////// */
+
+.main-body {
+  width: 100%;
+  position: relative;
+}
+
+.main-body__video {
+  width: 100vw;
+  background-size: cover;
 }
