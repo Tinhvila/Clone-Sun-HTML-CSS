@@ -1,5 +1,10 @@
+/* General component */
 :root {
   --primary-color: #c01111;
+}
+
+.element-wrapper {
+  padding: 10px;
 }
 
 * {
@@ -133,11 +138,71 @@ ol {
 /* /////////////////////////////HEADER////////////////////////////////// */
 
 .main-body {
-  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
   position: relative;
+  padding: 0 15px;
 }
 
 .main-body__video {
   width: 100vw;
-  background-size: cover;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
+
+.heading__title {
+  margin: 20px 0 10px;
+  font-size: 32px;
+  padding-bottom: 25px;
+  color: #2b3441;
+}
+
+.main-body__intro {
+  border: 6px solid #f9f9f9;
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.main-body__intro::before {
+  content: "";
+  border: 6px solid #f9f9f9;
+  border-radius: 16px;
+  position: absolute;
+  width: 110px;
+  height: calc(100% - 80px);
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.intro__description {
+  width: 50%;
+  padding-left: 70px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #2b3441;
+  font-size: 16px;
+}
+
+.intro__image {
+  margin: -80px 25px -70px 70px;
+}
+
+.intro__image img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+}
+
+.intro__description {
+  line-height: 1.8;
+}
+
+.intro__description p {
+  margin: 0 0 10px;
 }
