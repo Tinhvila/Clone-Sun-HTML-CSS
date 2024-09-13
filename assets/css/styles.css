@@ -97,11 +97,6 @@ body {
   box-sizing: border-box;
 }
 
-.navbar-nav,
-.lang-nav {
-  display: flex;
-}
-
 .header__logo {
   padding: 10px 0 10px;
 }
@@ -136,10 +131,25 @@ body {
   box-sizing: border-box;
 }
 
-.lang-vi {
+.navbar-nav,
+.lang-nav {
+  display: flex;
+  gap: 6px;
+}
+.lang-item {
+  transition: all 0.5;
+}
+
+.lang-item:hover {
+  color: var(--primary-color);
+}
+
+.lang-active {
   padding: 0 12px;
   border-radius: 4px;
   border: 1px solid var(--primary-color);
+  font-weight: bold;
+  color: var(--primary-color);
 }
 
 .lang-en {
