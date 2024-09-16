@@ -1,0 +1,237 @@
+@media only screen and (max-width: 1024px) {
+  .navbar-nav {
+    display: none;
+  }
+  .toggle-button {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .button {
+    height: 60px;
+    line-height: 60px;
+  }
+  .header-column:has(.header__logo) {
+    width: 35%;
+  }
+
+  .header-column:has(.header__navbar) {
+    width: 40%;
+  }
+
+  .header-column:has(.header__lang-switcher) {
+    width: 25%;
+  }
+
+  .heading-title {
+    font-size: 24px;
+  }
+
+  .main-body__intro {
+    flex-wrap: wrap;
+  }
+  .intro__description {
+    font-size: 14px;
+    width: 100%;
+    margin: 0;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+  }
+  .intro__image {
+    margin: 0;
+    padding: 15px;
+  }
+
+  .main-body__creative-studio ul {
+    display: block;
+  }
+  .main-body__creative-studio li {
+    width: 100%;
+    padding: 36px;
+  }
+  .main-body__creative-studio li:first-child {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  .main-body__creative-studio li:last-child {
+    margin-left: 0;
+  }
+
+  .creative-studio__item .creative-studio__title {
+    font-size: 20px;
+  }
+  .creative-studio__item .creative-studio__description {
+    font-size: 14px;
+  }
+
+  .project-section {
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+  }
+  .project-column-2 {
+    display: none;
+  }
+
+  .project-counter {
+    margin-top: 40px;
+    padding-bottom: 0;
+  }
+  .project-counter li {
+    margin-bottom: 20px;
+  }
+
+  .project-column-1,
+  .project-column-3 {
+    width: 100%;
+  }
+
+  .project-counter__number {
+    font-size: 65px;
+  }
+  .project-counter__label {
+    font-size: 36px;
+    top: -10px;
+    padding-left: 20px;
+  }
+  .project-counter__title {
+    font-size: 16px;
+    left: -40px;
+    position: relative;
+    top: -10px;
+  }
+  .project-button {
+    padding: 0 50px;
+    width: 93%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  #y1:target ~ .project-slider {
+    transform: translateX(0%);
+  }
+
+  #y2:target ~ .project-slider {
+    transform: translateX(-329px);
+  }
+
+  #y3:target ~ .project-slider {
+    transform: translateX(calc(2 * -329px));
+  }
+  .career-intro-container {
+    margin-bottom: 20px;
+  }
+  .career-intro__content .career-intro__sub-title {
+    font-size: 16px;
+  }
+  .career-intro__content .career-intro__title {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  .career-intro__content .career-intro__description {
+    font-size: 18px;
+  }
+  .career-intro__content .career-intro__sub-description {
+    font-size: 14px;
+  }
+  .career-intro__btn-wrap {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .working-enviroment-column {
+    width: 100%;
+  }
+  .working-enviroment-row {
+    flex-wrap: wrap;
+  }
+  .working-enviroment__list-content-container .list-content {
+    margin-top: 15px;
+  }
+  .list-content li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .list-content li:last-child {
+    margin-bottom: 0px;
+  }
+  .list-content__icon {
+    transform: scale(0.8);
+  }
+  .list-content__title {
+    font-size: 15px;
+  }
+  .banner-container__btn {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+    font-size: 16px;
+  }
+  .news__items {
+    width: 305px;
+  }
+
+  .carousel-news ul {
+    width: 100%;
+  }
+
+  .heading-news {
+    padding-bottom: 0;
+  }
+
+  #s1:target ~ .news-track {
+    transform: translateX(0%);
+  }
+
+  #s2:target ~ .news-track {
+    transform: translateX(-336px);
+  }
+
+  #s3:target ~ .news-track {
+    transform: translateX(calc(2 * -336px));
+  }
+
+  #s4:target ~ .news-track {
+    transform: translateX(calc(3 * -336px));
+  }
+
+  .news-btn-more {
+    margin-top: 30px;
+    margin-bottom: 140px;
+  }
+  .footer-row {
+    flex-wrap: wrap;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  .heading-title--style-1 {
+    font-size: 15px;
+  }
+
+  .footer-column:has(.logo-bear) {
+    width: 18%;
+  }
+  .logo-bear img {
+    width: 40px;
+  }
+  .footer-column:has(.footer-text-last) {
+    width: 82%;
+  }
+
+  .footer-column-44 {
+    width: 100%;
+  }
+  .social-wrapper ul {
+    justify-content: flex-start;
+  }
+
+  .toggle-button ul {
+    left: -65vw;
+  }
+}
