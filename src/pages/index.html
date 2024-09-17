@@ -7,6 +7,7 @@
   <link rel="shortcut icon" href="../../assets/icons/favicon.ico">
   <title>Trang chủ - Sun* Inc. Tuyển Dụng</title>
   <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../assets/css/custom.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
@@ -16,74 +17,67 @@
 </head>
 
 <body>
-  <div class="container">
-    <header class="header">
-      <div class="header-row">
-        <div class="header-row-wrapper">
-          <div class="header-column">
-            <div class="header__logo">
-              <a href="index.html">
-                <img src="../../assets/images/logo-sun.png" alt="logo-sun" style="max-height: 40px;">
-              </a>
-            </div>
-          </div>
-          <div class="header-column">
-            <nav class="header__navbar">
-              <ul class="navbar-nav">
-                <li class="navbar-item">
-                  <a href="#" class="navbar-link active">Trang chủ</a>
-                </li>
-                <li class="navbar-item">
-                  <a href="#" class="navbar-link">Về chúng tôi</a>
-                </li>
-                <li class="navbar-item">
-                  <a href="#" class="navbar-link">Dự án</a>
-                </li>
-                <li class="navbar-item">
-                  <a href="#" class="navbar-link">Cơ hội nghề nghiệp</a>
-                </li>
-                <li class="navbar-item">
-                  <a href="#" class="navbar-link">Môi trường làm việc</a>
-                </li>
-                <li class="navbar-item">
-                  <a href="#" class="navbar-link">Tin tức</a>
-                </li>
-              </ul>
-              <div class="toggle-button">
-                <input type="checkbox" id="toggle-menu" class="toggle-checkbox">
-                <label for="toggle-menu" class="toggle-label">
-                  <i class="fa-solid fa-bars"></i>
-                </label>
-                <ul>
-                  <li class="nav-item--active"><a href="#">Trang chủ</a></li>
-                  <li><a href="#">Về chúng tôi</a></li>
-                  <li><a href="#">Dự án</a></li>
-                  <li><a href="#">Cơ hội nghề nghiệp</a></li>
-                  <li><a href="#">Môi trường làm việc</a></li>
-                  <li><a href="#">Tin tức</a></li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-          <div class="header-column">
-            <div class=" header__lang-switcher">
-              <ul class="lang-nav">
-                <li class="lang-item lang-active">
-                  <a href="index.html">VI</a>
-                </li>
-                <li class="lang-item ">
-                  <a href="index_en.html">EN</a>
-                </li>
-              </ul>
-            </div>
+  <div class="container-fluid p-0">
+    <header class="header sticky-top text-center bg-white shadow-c fs--14px-c">
+      <div class="mw--1140px-c mx-auto d-flex" style="height: 87.1875px;">
+        <div class="w--14pct-c p--10px-c d-flex">
+          <a href="index.html" class="py--10px-c">
+            <img src="../../assets/images/logo-sun.png" alt="logo-sun" style="max-height: 40px;">
+          </a>
+        </div>
+        <div class="w--72pct-c p--10px-c d-flex align-items-center justify-content-end">
+          <ul class="nav">
+            <li class="nav-item mr--35px-c">
+              <a class="nav-link position-relative p-0 nav-link--hover nav-link--active" href="#">Trang chủ</a>
+            </li>
+            <li class="nav-item mr--35px-c">
+              <a class="nav-link position-relative p-0 nav-link--hover" href="#">Về chúng tôi</a>
+            </li>
+            <li class="nav-item mr--35px-c">
+              <a class="nav-link position-relative p-0 nav-link--hover" href="#">Dự án</a>
+            </li>
+            <li class="nav-item mr--35px-c">
+              <a class="nav-link position-relative p-0 nav-link--hover" href="#">Cơ hội nghề nghiệp</a>
+            </li>
+            <li class="nav-item mr--35px-c">
+              <a class="nav-link position-relative p-0 nav-link--hover" href="#">Môi trường làm việc</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link position-relative p-0 nav-link--hover" href="#">Tin tức</a>
+            </li>
+          </ul>
+          <div class="toggle-button d-none">
+            <input type="checkbox" id="toggle-menu" class="toggle-checkbox">
+            <label for="toggle-menu" class="toggle-label">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul>
+              <li class="nav-item--active"><a href="#">Trang chủ</a></li>
+              <li><a href="#">Về chúng tôi</a></li>
+              <li><a href="#">Dự án</a></li>
+              <li><a href="#">Cơ hội nghề nghiệp</a></li>
+              <li><a href="#">Môi trường làm việc</a></li>
+              <li><a href="#">Tin tức</a></li>
+            </ul>
           </div>
         </div>
+        <div class="w--12pct-c p--10px-c d-flex align-items-center justify-content-end">
+          <ul class="nav">
+            <li class="nav-item ">
+              <a class="p-0 lang-item lang--active" href="index.html">VI</a>
+            </li>
+            <li class="nav-item">
+              <a class="p-0 lang-item lang--normal" href="index_en.html">EN</a>
+            </li>
+          </ul>
+        </div>
       </div>
+
     </header>
 
     <div class="main-body">
-      <video class="main-body__video" src="../../assets/videos/homepage-sun-video.mp4" autoplay muted webkit-playsinline
-        playsinline loop></video>
+      <!-- <video class="main-body__video" src="../../assets/videos/homepage-sun-video.mp4" autoplay muted webkit-playsinline
+        playsinline loop></video> -->
       <section class="element-wrapper">
         <h2 class="heading-title pb-25">Lĩnh vực kinh doanh</h2>
       </section>
