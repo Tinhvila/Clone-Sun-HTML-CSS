@@ -185,6 +185,14 @@ h6 {
   line-height: 1.8;
 }
 
+.mt--50px {
+  margin-top: 50px;
+}
+
+.pb--50px {
+  padding-bottom: 50px;
+}
+
 .mt--m80px {
   margin-top: -80px;
 }
@@ -454,13 +462,64 @@ h6 {
   margin-bottom: 15px;
 }
 
+.mb--80px {
+  margin-bottom: 80px;
+}
+
 .mt--90px {
   margin-top: 90px;
+}
+
+.bussiness_item:last-child::after {
+  content: "";
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: #fff7f7;
+  position: absolute;
+  right: 55%;
+  bottom: -85px;
+}
+
+.section-project::before {
+  content: "";
+  width: 71px;
+  height: 71px;
+  border-radius: 50%;
+  background-color: #ffeff0;
+  position: absolute;
+  right: -90px;
+  bottom: -40px;
+}
+
+.project-heading::before {
+  content: "";
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #c01111;
+  position: absolute;
+  right: 25%;
+  top: -30px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.project-heading::after {
+  content: "";
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: rgba(192, 17, 17, 0.1);
+  position: absolute;
+  left: 0;
+  bottom: -40px;
 }
 
 .project-slider__title:hover {
   color: var(--primary-color) !important;
 }
+
 .carousel-control-next,
 .carousel-control-prev {
   background-color: rgba(148, 155, 164, 0.2);
@@ -491,4 +550,60 @@ h6 {
 
 .carousel-control-prev {
   right: 80px;
+}
+
+.career-intro__content {
+  background-image: url("../../assets/images/career-bg.jpg");
+  background-size: cover;
+}
+
+.career-intro__content:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(192, 17, 17, 0.9);
+  z-index: 0;
+  border-radius: 16px;
+}
+
+.career-intro__content:after {
+  content: "";
+  position: absolute;
+  background-color: #ef3f45;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  top: 75px;
+  left: 75px;
+  z-index: 0;
+}
+
+.px--5pct {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.pt--100px {
+  padding-top: 100px;
+}
+
+.fs--18px {
+  font-size: 18px;
+}
+
+.career-intro__sub-title:before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #d82329;
+  top: 46px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -1;
 }
