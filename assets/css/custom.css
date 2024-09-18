@@ -265,8 +265,20 @@ h6 {
   margin-bottom: 40px;
 }
 
+.me--27px {
+  margin-right: 27px;
+}
+
 .w--24px {
   width: 24px;
+}
+
+.w--40px {
+  width: 40px;
+}
+
+.h--40px {
+  height: 40px;
 }
 
 .h--24px {
@@ -458,12 +470,24 @@ h6 {
   margin-top: 10px;
 }
 
+.mt--30px {
+  margin-top: 30px;
+}
+
 .mb--15px {
   margin-bottom: 15px;
 }
 
 .mb--80px {
   margin-bottom: 80px;
+}
+
+.mb--25px {
+  margin-bottom: 25px;
+}
+
+.mb--60px {
+  margin-bottom: 60px;
 }
 
 .mt--90px {
@@ -606,4 +630,13 @@ h6 {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: -1;
+}
+
+.fa-check {
+  color: #c01111;
+  position: relative;
+  left: 0;
+  top: -10px;
+  font-size: 48px;
+  font-weight: 700;
 }
