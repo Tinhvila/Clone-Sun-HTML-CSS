@@ -614,6 +614,18 @@ h6 {
   padding-top: 100px;
 }
 
+.mt--8px {
+  margin-top: 8px;
+}
+
+.pt--60px {
+  padding-top: 60px;
+}
+
+.pb--10px {
+  padding-bottom: 10px;
+}
+
 .fs--18px {
   font-size: 18px;
 }
@@ -639,4 +651,169 @@ h6 {
   top: -10px;
   font-size: 48px;
   font-weight: 700;
+}
+
+.news__items {
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.news__items:hover {
+  border: 1px solid #e4e4e4;
+  transition: all 0.3s;
+}
+
+.mt--75px {
+  margin-top: 75px;
+}
+
+.w--33pct {
+  width: 31%;
+  flex: 0 0 31%;
+  max-width: 31%;
+}
+
+.text-normal {
+  white-space: normal;
+}
+
+.mx--12px {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.rounded--10px {
+  border-radius: 10px;
+}
+
+.rounded--34px {
+  border-radius: 34px;
+}
+
+.t--m22px {
+  top: -22px;
+}
+
+.r--m16px {
+  right: -16px;
+}
+
+.news__content::before {
+  content: "";
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background-color: rgba(228, 228, 228, 0.4);
+  border-radius: 50%;
+  left: 2px;
+  top: 12px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.h--75px {
+  height: 75px;
+}
+.news__title a {
+  color: #2b3441;
+}
+
+.news__title a:hover {
+  color: var(--primary-color);
+}
+
+.heading-title--style-1::before {
+  content: "";
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  background-color: #e4e4e4;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+footer a {
+  color: #949ba4;
+}
+
+.footer__link-container a:hover {
+  color: #4d5969;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.pt--30px {
+  padding-top: 30px;
+}
+
+.py--2px {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.pb--15px {
+  padding-bottom: 15px;
+}
+
+.w--18pct {
+  width: 18%;
+}
+
+.w--82pct {
+  width: 82%;
+}
+
+@media only screen and (min-width: 768px) {
+  .w-md--5p439pct {
+    width: 5.439% !important;
+  }
+
+  .w-md--49p337pct {
+    width: 49.337% !important;
+  }
+
+  .w-md--44p888pct {
+    width: 44.888% !important;
+  }
+}
+
+.mb--m10px {
+  margin-bottom: -10px;
+}
+
+.w--32px {
+  width: 32px;
+}
+
+.h--32px {
+  height: 32px;
+}
+
+.footer-button::before {
+  border-radius: 50%;
+  background: #c01111;
+}
+
+.lh--60px {
+  line-height: 60px;
+}
+
+.w--76px {
+  width: 76px;
+}
+
+.h--76px {
+  height: 76px;
+}
+
+.r--24px {
+  right: 24px;
+}
+
+.b--124px {
+  bottom: 124px;
 }
