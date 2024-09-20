@@ -1050,6 +1050,10 @@ footer a {
   .mb-md--25px {
     margin-bottom: 25px !important;
   }
+
+  .fs-md--20px {
+    font-size: 20px;
+  }
 }
 
 .t--80px {
